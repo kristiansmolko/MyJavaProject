@@ -8,9 +8,8 @@ import java.awt.event.WindowEvent;
 public class MyClass extends WindowAdapter implements ActionListener{
     JFrame f;
     JTextArea ta;
-    JButton b1, b2, b3, b4, dialogB;
+    JButton b1, b2, b3, b4;
     JTextField tf;
-    private static JDialog d;
     private Calculations calc = new Calculations();
 
     MyClass(){
